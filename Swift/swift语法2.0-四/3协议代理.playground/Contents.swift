@@ -1,11 +1,12 @@
 import UIKit
 
-//发生错误 停止程序。debug模式 使用
-assert(1 > 0 , "不可呢的错误")
-assertionFailure("出错了")
-precondition(1>0, "也是一个错")
-fatalError()
+//构造函数。init{ }
+
+//析构函数。deinit{ }
+
+//在一个函数 变量的 作用域内 会进行 init。deinit
 
 
-//ErrorType
-//1 描述错误使用枚举
+
+//MARK。引用计数
+
